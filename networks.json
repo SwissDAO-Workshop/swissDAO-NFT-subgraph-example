@@ -1,0 +1,8 @@
+{
+  "goerli": {
+    "SwissDAONFT": {
+      "address": "0x804E92be6f3f15738A14df8C0d2335573e4B7479",
+      "startBlock": 8432835
+    }
+  }
+}
