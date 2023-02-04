@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: SwissDAONFT
@@ -17,8 +17,8 @@ dataSources:
         - Transfer
       abis:
         - name: SwissDAONFT
-          file: ./abis/SwissDAONFT.json
+          file: SwissDAONFT/abis/SwissDAONFT.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer
-      file: ./src/swiss-daonft.ts
+      file: SwissDAONFT/SwissDAONFT.wasm
